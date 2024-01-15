@@ -1,0 +1,9 @@
+body{
+    min-width: 500px;
+    overflow: scroll;
+  }
+  * {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+  }
