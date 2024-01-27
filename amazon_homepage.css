@@ -129,3 +129,29 @@ body{
   font-size: 0.9rem;
   font-weight: 700;
 }
+
+
+
+.hero-section {
+  background-image: url("hero_image.jpg");
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  background-color: #fff;
+  color: #000;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin: 1vw;
+}
+
+.hero-msg a {
+  color: #007185;
+}
