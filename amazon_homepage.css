@@ -155,3 +155,36 @@ body{
 .hero-msg a {
   color: #007185;
 }
+
+
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 20%;
+  background-color: #fff;
+  padding: 20px 0 15px;
+  margin: 15px;
+}
+.box-img {
+  height: 30vh;
+  max-height: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 0.85rem;
+}
+.box-content p {
+  color: #007185;
+}
