@@ -245,3 +245,38 @@ ul > a {
 .copyright {
   padding-top: 5px;
 }
+
+
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
+  .box-content h2 {
+    font-size: 1.2rem;
+  }
+  .navbar {
+    font-size: 1.2rem;
+  }
+  .box {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 800px) {
+  .box-content h2 {
+    font-size: 1.2rem;
+  }
+  .navbar {
+    font-size: 1.2rem;
+  }
+  .box {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 799px) {
+  .box-content h2 {
+    font-size: 1rem;
+  }
+  .navbar {
+    font-size: 1.2rem;
+  }
+  .box {
+    width: 50%;
+  }
+}
